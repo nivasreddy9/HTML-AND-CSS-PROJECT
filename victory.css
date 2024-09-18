@@ -30,7 +30,7 @@ hr{
     width: 40%;
 }
 .banner{
-    background-image: url("../project1/banner-bg.jpg");
+    background-image: url("banner-bg.jpg");
     height: 50vh;
     display: flex;
     flex-direction: column;
