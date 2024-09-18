@@ -1,0 +1,82 @@
+
+@media  (max-width:426px){
+.nivas{
+    flex-direction: column;
+    justify-content: center;
+}
+figure>img{
+    width:200px;
+}
+.child6{
+    width:200px;
+}
+.child4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top:10vh ;
+    gap:10px;
+}
+.container4{
+    margin-top: 15vh;
+    background-image: url("./book-bg.jpg");
+    height:83vh;
+    color: white;
+    text-align: center;
+}
+.child3{
+   align-items: center;
+    justify-content: center;
+    gap:50px;
+    flex-direction: column;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10vh;
+    background-color: white;
+}
+}
+@media screen and (min-width: 427px) and (max-width: 769px){
+         figure>img{
+        width:150px;
+        justify-content: center;
+    }
+    .child6{
+        width:150px;
+    }
+}
+@media screen and (min-width: 770px) and (max-width: 1025px){
+    figure>img{
+        width:220px;
+        justify-content: center;
+    }
+    .child6{
+        width:220px;
+    }
+
+    .container7>img{
+        width:220px;
+        height:300px;
+      }
+    .child7{
+        border:1px solid black;
+        width:220px;
+        height:300px;
+        background-color: whitesmoke;
+    }
+    .container8>img{
+        width:220px;
+        height:300px;
+      }
+    .child8{
+        border:1px solid black;
+        width:220px;
+        height:300px;
+        background-color: whitesmoke;
+    }
+}
+    
+
